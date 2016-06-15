@@ -1,0 +1,5 @@
+Instructions:
+  - install dev dependency - bable cli
+  - add build script : 'babel src -d lib'
+    - run the babel compiler on the src directory.
+    - '-d' denotes that we want the output code to be located in the lib directory.
