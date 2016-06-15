@@ -1,0 +1,25 @@
+{
+  "name": "es6-crash-course",
+  "version": "1.0.0",
+  "description": "Every thing es6 based off of [laracast](https://laracasts.com) tutorials.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtapia5070/es6CrashCourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtapia5070/es6CrashCourse/issues"
+  },
+  "homepage": "https://github.com/vtapia5070/es6CrashCourse#readme"
+}
