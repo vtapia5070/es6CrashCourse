@@ -1,5 +1,11 @@
 Instructions:
   - install dev dependency - bable cli
+  - install babel presets specific for es6 compilation
+  - configure babelrc - for babel presets
   - add build script : 'babel src -d lib'
     - run the babel compiler on the src directory.
     - '-d' denotes that we want the output code to be located in the lib directory.
+  - create a src folder with es6 files
+  - run 'npm run build' to build src es6 files
+    - a compiled version of code should now exits in the output folder 'lib/'
+  - Person.js console logs a greeting - run index.html to see in browser.
