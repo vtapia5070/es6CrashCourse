@@ -10,3 +10,6 @@ Every thing es6 based off of [laracast](https://laracasts.com) tutorials.
   - A directory of es6 conept demos
     1. Es6_Variables.js
       - var, let, and const
+    2. Es6_Arrows.js
+      - => syntax vs function keywords
+
