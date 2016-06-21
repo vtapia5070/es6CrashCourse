@@ -20,4 +20,4 @@
 // If one parameter exists, the parens are optional.
 // If two params exist, parens are required.
 // caveat: the value of the this keyword refers to the collection/function scope it is used within
-
+// return keyword is implicit when the arrow syntax is used
