@@ -4,8 +4,8 @@ function originalApplyDiscount(cost, discount) {
 
   return cost - (cost * discount);
 }
-alert(originalApplyDiscount(100, .04)); // 60
-alert(originalApplyDiscount(100)); // 90
+// alert(originalApplyDiscount(100, .04)); // 96
+// alert(originalApplyDiscount(100)); // 90
 
 function defaultDiscountRate () {
   return .10;
@@ -20,6 +20,6 @@ function applyDiscountB(cost, discount = .10) {
 }
 
 
-alert(applyDiscountA(100));
+// alert(applyDiscountA(100)); // 90
 
-alert(applyDiscountB(100));
+// alert(applyDiscountB(100)); // 90

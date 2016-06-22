@@ -21,3 +21,10 @@
 // If two params exist, parens are required.
 // caveat: the value of the this keyword refers to the collection/function scope it is used within
 // return keyword is implicit when the arrow syntax is used
+
+/*
+ * Default Parameters
+ */
+
+// when a value s not passed into a function, it's parameter defaults to undefined.
+// In Es6, you can set default parameters to catch edge cases that result from missing parameters.
