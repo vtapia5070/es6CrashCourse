@@ -12,4 +12,12 @@ Every thing es6 based off of [laracast](https://laracasts.com) tutorials.
       - var, let, and const
     2. Es6_Arrows.js
       - => syntax vs function keywords
+    3. Es6_DefaultParameters.js
+      - default parameter values
 
+### Development
+Babel compiles ES6 files inside the src/ directory into ES5 inside the lib/ directory.
+To build run:
+``` npm run build ```
+To run the files in the browser, add the following to index.html :
+```<script src="lib/<file_name>.js">```
