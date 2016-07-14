@@ -28,3 +28,16 @@
 
 // when a value is not passed into a function, it's parameter defaults to undefined.
 // In Es6, you can set default parameters to catch edge cases that result from missing parameters.
+
+/*
+ * Rest and Spread
+ */
+
+// Rest:
+// for a function you can use the ... syntax before a parameter as an anlternative
+// for using the arguments keyword when there is an unknown number of parameters.
+// When using this you can not use any other parameters after the rest syntax.
+
+// Spread:
+// Spread in the opposite of Rest. You can use the ... syntax to reference an array.
+
