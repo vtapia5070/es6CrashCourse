@@ -19,7 +19,6 @@ function applyDiscountB(cost, discount = .10) {
   return cost - (cost * discount);
 }
 
-
 // alert(applyDiscountA(100)); // 90
 
 // alert(applyDiscountB(100)); // 90
