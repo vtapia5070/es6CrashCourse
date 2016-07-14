@@ -26,5 +26,5 @@
  * Default Parameters
  */
 
-// when a value s not passed into a function, it's parameter defaults to undefined.
+// when a value is not passed into a function, it's parameter defaults to undefined.
 // In Es6, you can set default parameters to catch edge cases that result from missing parameters.
