@@ -36,7 +36,7 @@
 // Rest:
 // for a function you can use the ... syntax before a parameter as an anlternative
 // for using the arguments keyword when there is an unknown number of parameters.
-// When using this you can not use any other parameters after the rest syntax.
+// When using this with other parameters, the rest parameter must be at the end.
 
 // Spread:
 // Spread in the opposite of Rest. You can use the ... syntax to reference an array.
