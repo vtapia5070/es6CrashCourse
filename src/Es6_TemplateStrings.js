@@ -26,3 +26,5 @@ let templateStrName = `
   </div>
 `;
 console.log(templateStrName);
+console.log(templateStrName.trim()); // to remove whitespace before string
+
