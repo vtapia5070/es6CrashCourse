@@ -41,3 +41,12 @@
 // Spread:
 // Spread in the opposite of Rest. You can use the ... syntax to reference an array.
 
+
+/*
+ * Template Strings or Template Literals
+ */
+
+// Template Strings are a way to construct html without the need of methods or string concatination.
+// The syntax allows for a multi line string, flexability to use indentation for formatting
+// purposes, and requires only an opening and closing back tick.
+
