@@ -14,8 +14,10 @@ Every thing es6 based off of [laracast](https://laracasts.com) tutorials.
       - => syntax vs function keywords
     3. Es6_DefaultParameters.js
       - default parameter values
-    4. Es6_RestAndSpread
+    4. Es6_RestAndSpread.js
       - ... syntax
+    5. Es6_TemplateStrings.js
+      - Template literals and the ${} syntax
 
 ### Development
 Babel compiles ES6 files inside the src/ directory into ES5 inside the lib/ directory.
