@@ -61,3 +61,14 @@
 // Object deconstructuring:
 // You can declare an object and use the shorthand syntax to assign variables to the object
 // in alternative of assigning variables to each property in the object to avoid boilerplate code.
+
+/*
+ * Es6 Classes
+ */
+
+// syntactic sugar on the old way of creating classes.
+// es6 classes can be passed in anonymousely to function invocations
+// you can use get and set accessor methods
+// statics - prefix the word statics before a method to access the method straight off of the class
+// without having to first create an instance of a class.
+// More on static: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
