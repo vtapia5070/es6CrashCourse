@@ -93,5 +93,7 @@
 // of code imported within that source file.
 // 2) to save access of utilize a main file you can do: `rollup </src/of/main/file> > <destination file`
 // the destination file will be saved and can now be included as a main javascript file.
+// 3) create rollup.config.js to configure any plugind like babel or buble. These plugins will compile the modules
+// to ES5. Using `rollup -c > <name of output file>` will apply options in configuration file.
 
 
