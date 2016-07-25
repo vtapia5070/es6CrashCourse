@@ -52,8 +52,12 @@
 // Template literals also alow the use of variables using this syntax: ${<variable_name_here}
 
 /*
- * Object and method Shorthand
+ * Object Enhancements
  */
 
+// Object and method Shorthand:
 // See example in src/Es6_ObjectEnhancements.js for syntax
 
+// Object deconstructuring:
+// You can declare an object and use the shorthand syntax to assign variables to the object
+// in alternative of assigning variables to each property in the object to avoid boilerplate code.
