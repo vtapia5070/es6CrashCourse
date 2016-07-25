@@ -1,16 +1,14 @@
 /*jshint esversion: 6 */
 
-class ModuleCollection {
+var ModuleCollection = function ModuleCollection(modules) {
+  if ( modules === void 0 ) modules = [];
 
-  constructor(modules = []) {
-    this.modules = modules;
-  }
+  this.modules = modules;
+};
 
-  dump() {
-    console.log(this.modules);
-  }
-
-}
+ModuleCollection.prototype.dump = function dump () {
+  console.log(this.modules);
+};
 
 new ModuleCollection([
   'Classes',
