@@ -72,3 +72,26 @@
 // statics - prefix the word statics before a method to access the method straight off of the class
 // without having to first create an instance of a class.
 // More on static: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
+
+/*
+ * Es6 Modules
+ */
+
+// instead of including numerous script tage into index.html, many devlopers use common.js,
+// require.js, webpack, browserify, UMD, AMD, rollup, and other wrappers that serve as
+// file or module loaders/bundlers.
+// Es6 offeres a way to do this with the keywords 'import' and 'export', although
+// a file loader is still needed to support this action.
+
+/*
+ * Es6 Modules with Rollup
+ */
+
+// As proven in es6 Modules lesson, the import/export keywords for es6 modules are not suppoted.
+// Using rollup.js is one solution.
+// 1) install rollup globally or locally, run rollup <source of code> and rollup will grab the pieces
+// of code imported within that source file.
+// 2) to save access of utilize a main file you can do: `rollup </src/of/main/file> > <destination file`
+// the destination file will be saved and can now be included as a main javascript file.
+
+
