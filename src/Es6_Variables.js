@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /*
  * Var
  */
@@ -14,7 +16,7 @@ function fire (bool) {
 
     console.log(someVarThatIsntDeclared); // Uncaught ReferenceError
 
-    console.log(foo); // would log undefined
+    // console.log(foo); // would log undefined
     // why? foo gets hoisted to the top of the function scope
     // it is only assigned the value 'bar' inside the conditional.
 

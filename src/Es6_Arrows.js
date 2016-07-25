@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 class TaskCollection {
 
   constructor (tasks = []) {
@@ -56,7 +58,7 @@ class TaskCollection {
 
 class Task {}
 
-new TaskCollection ([new Task, new Task, new Task])
+new TaskCollection ([new Task(), new Task(), new Task()])
 // .logWithTwoParams();
 // .logWithOneParam();
 .logWithNoParams();

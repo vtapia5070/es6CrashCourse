@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /*
  * Rest Parameters
  */
@@ -5,7 +7,7 @@
 function sum (...numbers) {
   return numbers.reduce(function (prev, current) {
     return prev + current;
-  })
+  });
 }
 
 // console.log(sum(1,2,3)); // 6

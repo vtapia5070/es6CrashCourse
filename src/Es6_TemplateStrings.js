@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /* Initial Javascript */
 let template = [
   '<div class="Alert">',
