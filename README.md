@@ -18,6 +18,8 @@ Every thing es6 based off of [laracast](https://laracasts.com) tutorials.
       - ... syntax
     5. Es6_TemplateStrings.js
       - Template literals and the ${} syntax
+    6. Es6_ObjectEnhancements.js
+      - Object and method shorthand
 
 ### Development
 Babel compiles ES6 files inside the src/ directory into ES5 inside the lib/ directory.
