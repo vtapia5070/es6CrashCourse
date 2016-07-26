@@ -96,4 +96,7 @@
 // 3) create rollup.config.js to configure any plugind like babel or buble. These plugins will compile the modules
 // to ES5. Using `rollup -c > <name of output file>` will apply options in configuration file.
 
-
+/*
+ * Promises
+ */
+// An intro to promises. A promis is a placeholder for operations that take place within time.
