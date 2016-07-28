@@ -99,4 +99,23 @@
 /*
  * Promises
  */
-// An intro to promises. A promis is a placeholder for operations that take place within time.
+
+// An intro to promises. A promise is a placeholder for operations that take place within time.
+
+/*
+ * String Additions
+ */
+
+// ES6 provides the following string methods:
+  // str.includes(searchString[, position]) which can return true or false if the string at the
+  // optionally specified position is found.
+
+  // str.beginsWith(searchString[,positon]) which will return a boolean if the string begins with
+  // specified string at the specified position
+
+  // str.endswith(searchString[, position]) which will return a boolean if the string ends with
+  // specified string at the specified position
+
+  // str.repeat(count) that will reapeat the string the specified number of times
+
+
