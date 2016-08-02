@@ -128,4 +128,5 @@
  * Generators
  */
 
-
+// Allows a function to pause and resume at a particular point.
+// Yield is like a return statement but you can resume from an exapt point.
