@@ -118,4 +118,8 @@
 
   // str.repeat(count) that will reapeat the string the specified number of times
 
+/*
+ * Array Additions
+ */
 
+// ES6 introduces many array methods such as fill(), find(), entries(), values(), and keys()
