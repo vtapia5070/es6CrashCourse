@@ -2,6 +2,7 @@
 
 let title = 'Red Rising';
 
+// ES5
 if (title.indexOf('R') === 0) {
   console.log('R is the first letter');
 }
