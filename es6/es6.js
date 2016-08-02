@@ -123,3 +123,9 @@
  */
 
 // ES6 introduces many array methods such as fill(), find(), entries(), values(), and keys()
+
+/*
+ * Generators
+ */
+
+
